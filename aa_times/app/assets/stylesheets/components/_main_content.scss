@@ -1,0 +1,73 @@
+.main-content {
+  display: flex;
+}
+.first_col {
+  
+}
+
+.first_col h1 {
+  font-size: 20px;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.first_col p {
+  color: $gray;
+  padding: 5px 0;
+}
+
+.first_col ul {
+  list-style-position: inside;
+  padding-left: 15px;
+  li {
+    list-style: initial;
+  }
+}
+
+.first_col a {
+  color: $light-blue;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.aa-alumni {
+  font-size: 14px;
+  color: black;
+  padding: 5px 0;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.author  {
+  color: $gray;
+}
+
+.last_col h2 {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.last_article {
+  display: flex;
+  ul {
+    // list-style-position: insid;
+    padding-left: 15px;
+    li {
+      list-style: initial;
+    }
+  }
+}
+
+.small-header {
+  font-size: 12px;
+}
